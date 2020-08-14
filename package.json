@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muratbyazrov/byazrov-news-api.git"
+    "url": "git+https://github.com/muratbyazrov/test-skaz.git"
   },
   "keywords": [
     "kaupervud"
@@ -23,9 +23,9 @@
     "nodemon": "^2.0.3"
   },
   "bugs": {
-    "url": "https://github.com/muratbyazrov/byazrov-news-api/issues"
+    "url": "https://github.com/muratbyazrov/test-skaz.git/issues"
   },
-  "homepage": "https://github.com/muratbyazrov/byazrov-news-api#readme",
+  "homepage": "https://github.com/muratbyazrov/test-skaz.git#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

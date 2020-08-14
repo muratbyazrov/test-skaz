@@ -2,9 +2,10 @@
 const User = require('../models/user');
 
 // обработчик, отдающий данные пользователя
-module.exports.getUser = (req, res) => {
+module.exports.getUser = async (req, res) => {
   // находим пользователя
-  User.findById(req.params.id)
+  await User.findById(req.params.id)
+    .orFail(new Error('Нет пользователя с указанным ID'))
     .then((user) => {
       res.send({ data: user });
     })
