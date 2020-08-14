@@ -7,6 +7,3 @@ node_modules
 # Optional REPL history
 .DS_Store
 .idea
-
-# Здесь хранятся секретные ключи
-.env
